@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-dotnet60-basic-fgmn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rsoaresd_org/spi-demos-hrug-tenant/dotnet-component/devfile-sample-dotnet60-basic-fgmn@sha256:08192248eac2c2405fed009f1bc986dffc9415820d4662afa21c37129d53f7a8
+        name: main
+        resources: {}
+status: {}
